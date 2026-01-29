@@ -165,9 +165,9 @@ pnpm tsc --noEmit
 pnpm vitest --run <file_path>
 ```
 
-아래는 예제 커버리지 결과표입니다.
+아래는 커버리지 결과표 예시입니다.
 커버리지를 통과하지 못한 것은 `Uncovered Line` 항목을 보면 알 수 있습니다.
-예를 들어, `index.ts`의 경우 `% Stmts`, `% Branch`, `% Funcs`, `% Lines`의 값이 0으로 나옵니다.
+예를 들어, `index.ts`의 경우 `Stmts`, `Branch`, `Funcs`, `Lines`의 값이 0으로 나옵니다.
 그리고 `Uncovered Lines`이 비어있습니다.
 이 케이스는 통과한 것입니다.
 함수나 클래스같은 구현이 없기 때문입니다.
